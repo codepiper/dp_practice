@@ -1,4 +1,11 @@
 <?php
+
+//http://stackoverflow.com/questions/10745075/php-mysql-error-when-calling-multiple-stored-procedures
+//http://stackoverflow.com/questions/10561535/synchronized-stored-procedure-execution-in-mysql
+//http://dev.mysql.com/doc/refman/5.5/en/stored-program-restrictions.html
+//http://stackoverflow.com/questions/7520718/concurrent-access-to-mysql-database-using-stored-procedure
+
+
 $link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
 /* check connection */
